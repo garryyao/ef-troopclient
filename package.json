@@ -1,6 +1,6 @@
 {
   "name": "ef-troopclient",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Client tester for tropp backend svc",
   "main": "index.js",
   "bin": {
