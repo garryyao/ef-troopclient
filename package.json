@@ -1,0 +1,21 @@
+{
+  "name": "ef-troopclient",
+  "version": "0.0.1",
+  "description": "Client tester for tropp backend svc",
+  "main": "index.js",
+  "repository": "",
+  "keywords": [
+    "troop",
+    "backend",
+    "svc",
+    "test"
+  ],
+  "author": "tristanguo@outlook.com",
+  "license": "GPL",
+  "dependencies": {
+    "request": "~2.27.0",
+    "connect": "~2.11.2",
+    "cli-color": "~0.2.3",
+    "when": "~2.7.0"
+  }
+}

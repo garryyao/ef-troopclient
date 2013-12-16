@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TROOP Client</title>
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="bower_components/jsoneditor/jsoneditor.css" />
+		<link rel="stylesheet" type="text/css" href="bower_components/ladda-bootstrap/dist/ladda-themeless.css" />
+		<style type="text/css">
+			.json-editor {
+				height: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="navbar-inner">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">TROOP SERVICES CLIENT</a>
+					</div
+				</div>
+			</div>
+		</nav>
+
+		<div class="container" >
+			<ul id="menu" class="nav nav-tabs">
+				<li class="active"><a href="#QueryArea">QUERY</a></li>
+				<li><a href="#CommandArea">COMMAND</a></li>
+			</ul>
+			<div class="tab-content" style="padding-top:5px;">
+				<div class="tab-pane active" id="QueryArea">
+					<form role="form" class="form-inline query-form" method="post" action="query" enctype="application/x-www-form-urlencoded">
+						<div class="form-group">
+							<input type="text" name="CP" style="width:529px;" class="form-control" 
+								value="countrycode=fr|culturecode=zh-CN|partnercode=None|siteversion=development"
+								placeholder="C Parameters" />
+						</div>
+						<div class="form-group">
+							<input type="text" style="width:529px;" name="ResourceId" class="form-control" placeholder="Resource Id" />
+						</div>
+						<div class="form-group">
+							<button id="QueryButton" type="submit" class="btn btn-primary ladda-button" data-style="zoom-out"><span class="ladda-label">QUERY</span></button>
+						</div>
+					</form>
+					<div style="margin-top:3px;">
+						<div class="json-editor" id="QueryJsonEditor"></div>
+					</div>
+				</div>
+				<div class="tab-pane" id="CommandArea">
+					COMMANDs
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="bower_components/jquery/jquery.js"></script>
+		<script type="text/javascript" src="bower_components/jquery-form/jquery.form.js"></script>
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script type="text/javascript" src="bower_components/ladda-bootstrap/dist/spin.js"></script>
+		<script type="text/javascript" src="bower_components/ladda-bootstrap/dist/ladda.js"></script>
+		<script type="text/javascript" src="bower_components/jsoneditor/jsoneditor.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

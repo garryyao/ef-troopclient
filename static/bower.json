@@ -1,0 +1,22 @@
+{
+  "name": "static",
+  "version": "0.0.0",
+  "authors": [
+    "Tristan <tristanguo@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "bootstrap": "~3.0.3",
+    "jquery-form": "~3.46.0",
+    "jsoneditor": "~2.3.5",
+    "ladda-bootstrap": "~0.1.0"
+  }
+}
