@@ -3,15 +3,20 @@
   "version": "0.0.1",
   "description": "Client tester for tropp backend svc",
   "main": "index.js",
-  "repository": "",
+  "bin": {
+    "ef-troopclient": "./bin/ef-troopclient"
+  },
+  "repository": "https://github.com/tristanguo/ef-troopclient",
   "keywords": [
     "troop",
     "backend",
-    "svc",
-    "test"
+    "service",
   ],
-  "author": "tristanguo@outlook.com",
-  "license": "GPL",
+  "author": {
+    "name": "Tristan Guo",
+    "email": "tristanguo@outlook.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "request": "~2.27.0",
     "connect": "~2.11.2",
