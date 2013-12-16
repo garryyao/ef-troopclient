@@ -8,13 +8,14 @@ A simple tool for quick testing troop backend services, relief you from logging 
 Install Package
 ---------------
 
-`$ npm install -g ef-troopclient`
+`$ npm install ef-troopclient`
 
 
 
 Usage
 -----
 
-`$ ef-troopclient`
+Go to the folder where you have installed the package, and run:
+`$ ./bin/ef-troopclient`
 
 And then simply type in the target host, and test account username and password.
